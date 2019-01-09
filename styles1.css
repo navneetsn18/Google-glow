@@ -1,0 +1,49 @@
+body{
+  background-color: black;
+}
+h1{
+  font-size : 18em;
+}
+#Google{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.G{
+  -webkit-text-fill-color: blue ;
+  -moz--text-fill-color: blue ;
+  -o--text-fill-color: blue ;
+  -ms--text-fill-color: blue ;
+  transition: all 1s;
+}
+.O{
+  -webkit-text-fill-color: red;
+  -moz--text-fill-color: red ;
+  -o--text-fill-color: red ;
+  -ms--text-fill-color: red ;
+  transition: all 1s;
+}
+.Oo{
+  -webkit-text-fill-color: yellow;
+  -moz--text-fill-color: yellow ;
+  -o--text-fill-color: yellow ;
+  -ms--text-fill-color: yellow ;
+  transition: all 1s;
+}
+.L{
+  -webkit-text-fill-color: green;
+  -moz--text-fill-color: green ;
+  -o--text-fill-color: green ;
+  -ms--text-fill-color: green ;
+  transition: all 1s;
+}
+.E{
+  -webkit-text-fill-color: red;
+  -moz--text-fill-color: red ;
+  -o--text-fill-color: red ;
+  -ms--text-fill-color: red ;
+  transition: all 1s;
+}
+.G:hover,.O:hover,.Oo:hover,.L:hover,.E:hover{
+    transform: scale(1.5);
+}
